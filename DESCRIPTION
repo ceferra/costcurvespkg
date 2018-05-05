@@ -5,10 +5,9 @@ Version: 0.1.0
 Date: 2016-04-25
 Author: Paulina Morillo
 Maintainer: Paulina Morillo <paumoal@inf.upv.es>
-Description: Tools for visualization and comparison of cost curves and the
-    choice of threshold. Given predictions and class labels . ROC curve can be
-    plotted and TPR (True positives rate), FPR (FP False positives rate) and AUCC
-    (area under the curve costs) can also be computed.
+Description: Tools for visualising and comparing cost curves of binary classifiers using different
+    threshold choice methods.  Additionally, the library also includes functions to plot ROC curves and compute TPR (True positives rate), 
+    FPR (FP False positives rate) and AUC (area under the ROC curve).
 License: GPL-3
 LazyData: TRUE
 Imports: flux
